@@ -1,0 +1,94 @@
+/*********************************************
+ * OPL 22.1.2.0 Data
+ * Author: 0204a
+ * Creation Date: Jul 30, 2026 at 11:23:30 PM
+ *********************************************/
+SheetConnection exl("C:\\Research Stuff\\WPCB.xlsx");
+MS from SheetRead(exl, "Sheet2!A2"); //number of material suppliers
+RC from SheetRead(exl, "Sheet2!B2");  //recycling centers
+PR from SheetRead(exl, "Sheet2!C2");  //number of periods
+RM from SheetRead(exl, "Sheet2!D2");//Rawmaterials
+DMC from SheetRead(exl, "Sheet2!E2");//dismental centers
+UA from SheetRead(exl, "Sheet2!F2");//user A
+UB from SheetRead(exl, "Sheet2!G2");//user B
+UC from SheetRead(exl, "Sheet2!H2");//user C
+MT from SheetRead(exl, "Sheet2!I2");//Material types
+MF from SheetRead(exl, "Sheet2!J2");//manufacturers
+C from SheetRead(exl, "Sheet2!K2");//number of customers
+U from SheetRead(exl, "Sheet2!L2");//Number of users
+DS from SheetRead(exl, "Sheet2!M2");//number of disassemblycentres
+CC from SheetRead(exl, "Sheet2!N2");//number of collectioncentres
+DPS from SheetRead(exl, "Sheet2!N2");//number of disposecentres
+wr from SheetRead(exl,"Sheet2!P2");
+ws from SheetRead(exl,"Sheet2!Q2");
+mu from SheetRead(exl,"Sheet2!R2");
+oga from SheetRead(exl,"Sheet2!S2");
+ogb from SheetRead(exl,"Sheet2!T2");
+ll from SheetRead(exl,"Sheet2!U2");
+tt from SheetRead(exl,"Sheet2!V2");
+tz from SheetRead(exl,"Sheet2!W2");
+cc from SheetRead(exl,"Sheet2!X2");
+Temp_Uirp from SheetRead(exl, "Sheet1!D2:D49");
+Temp_eefbsp from SheetRead(exl, "Sheet1!I2:I25");
+Temp_ddfasp from SheetRead(exl, "Sheet1!N2:N25");
+Temp_ggfcsp from SheetRead(exl, "Sheet1!S2:S25");
+Temp_Vkp from SheetRead(exl, "Sheet1!W2:W10");
+Temp_Wlp from SheetRead(exl, "Sheet1!AA2:AA16");
+Temp_AAjp from SheetRead(exl, "Sheet1!AE2:AE7");
+Temp_BBmp from SheetRead(exl, "Sheet1!AI2:AI7");
+Temp_CCnp from SheetRead(exl, "Sheet1!AM2:AM7");
+Temp_DDop from SheetRead(exl, "Sheet1!AQ2:AQ7");
+Temp_Kqrp from SheetRead(exl, "Sheet1!AV2:AV25");
+Temp_fjp from SheetRead(exl, "Sheet1!AZ2:AZ7");
+Temp_fmp from SheetRead(exl, "Sheet1!BD2:BD7");
+Temp_fnp from SheetRead(exl, "Sheet1!BH2:BH7");
+Temp_fop from SheetRead(exl, "Sheet1!BL2:BL7");
+Temp_fqp from SheetRead(exl, "Sheet1!BP2:BP7");
+Temp_Dij from SheetRead(exl, "Sheet1!BT2:BT9");
+Temp_Djk from SheetRead(exl, "Sheet1!BX2:BX7");
+Temp_Dkl from SheetRead(exl, "Sheet1!CB2:CB16");
+Temp_Dlm from SheetRead(exl, "Sheet1!CF2:CF11");
+Temp_Dmn from SheetRead(exl, "Sheet1!CJ2:CJ5");
+Temp_Dno from SheetRead(exl, "Sheet1!CN2:CN5");
+Temp_Dqi from SheetRead(exl, "Sheet1!CR2:CR9");
+Temp_Dofa from SheetRead(exl, "Sheet1!CV2:CV5");
+Temp_Dofb from SheetRead(exl, "Sheet1!CZ2:CZ5");
+Temp_Dofc from SheetRead(exl, "Sheet1!DD2:DD5");
+Temp_qnp from SheetRead(exl, "Sheet1!DH2:DH7");
+Lp from SheetRead(exl, "Sheet1!DK2:DK4");
+Rp from SheetRead(exl, "Sheet1!DK6:DK8");
+Np from SheetRead(exl, "Sheet1!DK10:DK12");
+Sp from SheetRead(exl, "Sheet1!DK14:DK16");
+ZZp from SheetRead(exl,"Sheet1!DK18:DK20");
+Temp_nlp from SheetRead(exl, "Sheet1!DO2:DO16");
+Temp_dmp from SheetRead(exl, "Sheet1!DS2:DS7");
+Temp_JJqvrp from SheetRead(exl, "Sheet1!DY2:DY49");
+Temp_cqrp from SheetRead(exl, "Sheet1!ED2:ED25");
+Temp_bop from SheetRead(exl, "Sheet1!EH2:EH7");
+Temp_eisp from SheetRead(exl, "Sheet1!EM2:EM49");
+Temp_tjp from SheetRead(exl, "Sheet1!EQ2:EQ7");
+Temp_zkp from SheetRead(exl, "Sheet1!EU2:EU10");
+
+// Results
+//Aijsp to SheetWrite(exl, "Sheet3!B2:M9");
+Temp_Hqirp to SheetWrite(exl, "Sheet3!A2:A97");
+Temp_SUPBofbsp to SheetWrite(exl, "Sheet3!B2:B49");
+Temp_USRAofasp to SheetWrite(exl, "Sheet3!C2:C49");
+Temp_USRBofbsp to SheetWrite(exl, "Sheet3!D2:D49");
+Temp_SUPCofcsp to SheetWrite(exl, "Sheet3!E2:E49");
+Temp_SUPAofasp to SheetWrite(exl, "Sheet3!F2:F49");
+Temp_SUPAofbsp to SheetWrite(exl, "Sheet3!G2:G49");
+Temp_SUPAofcsp to SheetWrite(exl, "Sheet3!H2:H49");
+Temp_Bjkp to SheetWrite(exl, "Sheet3!I2:I19");
+Temp_Cklp to SheetWrite(exl, "Sheet3!J2:J46");
+Temp_Aijsp to SheetWrite(exl, "Sheet3!K2:K97");
+Temp_Dlmp to SheetWrite(exl, "Sheet3!L2:L31");
+Temp_Emnp to SheetWrite(exl, "Sheet3!M2:M13");
+Temp_Hqisp to SheetWrite(exl, "Sheet3!N2:N97");
+Temp_BBop to SheetWrite(exl, "Sheet3!O2:O7");
+Temp_Xjp to SheetWrite(exl, "Sheet3!P2:P7");
+Temp_Ymp to SheetWrite(exl, "Sheet3!Q2:Q7");
+Temp_PPnp to SheetWrite(exl, "Sheet3!R2:R7");
+Temp_Top to SheetWrite(exl, "Sheet3!S2:S7");
+Temp_Zqp to SheetWrite(exl, "Sheet3!T2:T7");
+cost to SheetWrite(exl, "Sheet3!U2");
