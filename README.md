@@ -689,9 +689,9 @@ git push origin feature-name
 
 ---
 
-# 👨‍💻 Author
-
 <div align="center">
+
+# 👨‍💻 Author
 
 ## Ashutosh Singh
 
