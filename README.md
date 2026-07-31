@@ -37,7 +37,7 @@
 - [📂 Repository Structure](#-repository-structure)
 - [🚀 Getting Started](#-getting-started)
 - [📈 Model Outputs](#-model-outputs)
-- [🌱 Real-World Applications](#-applications)
+- [🌱 Real World Applications](#-real-world-applications)
 - [🔮 Future Enhancements](#-future-enhancements)
 - [📚 Research Reference](#-research-reference)
 - [👨‍💻 Author](#-author)
@@ -693,15 +693,13 @@ git push origin feature-name
 
 <div align="center">
 
-**Ashutosh Singh**
+## Ashutosh Singh
 
 **Operations Research | Data Science | Artificial Intelligence | Supply Chain Analytics**
 
-### GitHub
+🌐  [github.com/Optimus0205](https://github.com/Optimus0205)
 
-```text
-https://github.com/Optimus0205
-```
+</div>
 
 </div>
 
